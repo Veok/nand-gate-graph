@@ -1,0 +1,2 @@
+?-use_module(library(clpb)).
+nand(A,B,C,D) :-  sat(~(~(A*B)*(~(C*D)))).
